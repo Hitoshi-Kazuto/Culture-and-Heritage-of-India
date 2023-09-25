@@ -1,0 +1,328 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #ffc107;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1); */
+    font-family: #674d02;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffc107;
+    height: 50px;
+    align-items: center;
+    box-shadow: 10px 10px white;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1); */
+    font-family: #674d02;
+    color: white;
+    font-size: larger;
+}
+
+.taskbar {
+    background-color: #ffc107;
+    height: 160px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    /* margin-top: 36px; */
+}
+.logo {
+    margin-left: -100px;
+    /* border: 2px solid #3F2305; */
+
+}
+main{
+    height: 1050px;
+    display: flex;
+}
+.explore {
+    margin-left: 400px;
+}
+
+.about {
+    padding: 10px;
+}
+
+.cont {
+    font-size: 1.4em;
+}
+
+.recipe1 {
+    height: 510px;
+}
+
+#places2 {
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    border-width: 100px;
+    padding: 10px;
+}
+
+#places2:hover {
+    background-color: white;
+    color: #ffc107;
+}
+
+#food22 {
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    border-width: 100px;
+    padding: 10px;
+}
+
+#food22:hover {
+    background-color: white;
+    color: #ffc107;
+}
+
+#explo,#post {
+    color: #ffc107;
+    border-radius: 10px;
+    border-width: 100px;
+    padding: 10px;
+    border-color: #ffc107;
+}
+
+#explo:hover,#post:hover {
+    background-color: #ffc107;
+    color: white;
+}
+
+#festies {
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    border-width: 100px;
+    padding: 10px;
+}
+
+#festies:hover {
+    background-color: white;
+    color: #ffc107;
+}
+
+#state {
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    border-width: 100px;
+    padding: 10px;
+}
+
+#state:hover {
+    background-color: white;
+    color: #ffc107;
+}
+
+#storey {
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    border-width: 100px;
+    padding: 10px;
+}
+
+#storey:hover {
+    /* background-color: #3F2305; */
+    background-color: white;
+    color: #ffc107;
+
+}
+
+#task {
+    color: #ffc107;
+    border-radius: 10px;
+    border-width: 100px;
+    padding: 10px;
+    border-color: #ffc107;
+}
+
+#task:hover {
+    background-color: #ffc107;
+    color: white;
+}
+
+#more {
+    color: #ffc107;
+    border-radius: 10px;
+    border-width: 100px;
+    padding: 10px;
+    border-color: #ffc107;
+}
+
+#more:hover {
+    background-color: #ffc107;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+#contact {
+    color: black;
+    text-decoration: underline;
+}
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 45px;
+    margin-left: 150px;
+  }
+  .waviy span {
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    display: inline-block;
+    /* color: #fff; */
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  .blog1
+{
+    background-color: white;
+    border-width:2px;
+    border-color: white;
+    border-radius: 30px;
+    margin-top:70px;
+   
+    margin-left:50px;
+    height: 300px;
+    width:1000px;
+    position:relative;
+    animation-name: rightMovement;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.tejimola
+{
+    float:left;
+    height:180px;
+    width:180px;
+    border-radius: 30px;
+    
+    padding:20px;
+}
+.ptejimola
+{
+    text-align: left;
+    
+    
+    margin-left: 20px;
+    
+    padding: 20px;
+}
+.blog2
+{
+    background-color: white;
+    border-width:2px;
+    border-color: white;
+    border-radius: 40px;
+    margin-right:50px;
+    height:230px;
+    width:950px;
+   
+    margin-top:30px;
+    position:relative;
+    animation-name: leftMovement;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes leftMovement {
+    from{
+       left:0;
+    }
+    to {
+      left:500px;
+    }
+}
+.bax
+{
+    float:right;
+    height:180px;
+    width:180px; 
+    border-radius: 30px;
+    margin-left:20px;
+    padding:20px;
+}
+.pbax
+{
+    text-align:left;
+    padding:20px;
+}
+.blog3
+{
+    background-color: white;
+    border-width:2px;
+    border-color: white;
+    border-radius: 30px;
+    margin-top:30px;
+   
+    margin-left:50px;
+    height:230px;
+    width:1000px;
+    position:relative;
+    animation-name: rightMovement;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+    
+@keyframes rightMovement 
+{
+    from{
+        left:500px;
+    }
+    to {
+        left:30px;
+    }
+    
+}
+.lotkon{
+    float:left;
+    height:180px;
+    width:180px; 
+    border-radius: 30px;
+    margin-left:20px;
+    padding:20px;
+
+}
+.plotkon
+{
+    text-align:left;
+    padding:20px;
+}
+.blog1,.blog2,.blog3{
+    background-color: lightblue;
+    padding: 10px;
+}

@@ -1,0 +1,547 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    display: flex;
+    background-color: #3F2305;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    font-size: 1.3rem;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #DFD7BF;
+    height: 50px;
+    align-items: center;
+    box-shadow: 10px 10px white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    font-family: 'Courier New', Courier, monospace;
+    color: #3F2305;
+    font-size: large;
+}
+
+.taskbar {
+    background-color: #3F2305;
+    height: 160px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.logo {
+    margin-left: -100px;
+    border: 2px solid #3F2305;
+
+}
+
+.explore {
+    margin-left: 400px;
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    background-color: #F2EAD3;
+    width: 70%;
+    height: 1450px;
+    border-right: #3F2305;
+    border-width: 10px;
+}
+
+.right {
+    height: 510px;
+    width: 30%;
+    background-color: #F2EAD3;
+    /* border-right: #3F2305;
+    border-width: 10px; */
+}
+
+.shop-section {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F2EAD3;
+    width: 100%;
+    height: 200px;
+}
+
+.shop-section2 {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F2EAD3;
+    width: 100%;
+}
+
+.box1 {
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.b1 {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("food1.jpeg");
+    background-size: cover;
+    border-radius: 4%;
+    transition: transform .1s;
+}
+
+.b1:hover {
+    transform: scale(1.2);
+}
+
+.box2 {
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.b2 {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("food2.jpeg");
+    background-size: cover;
+    border-radius: 4%;
+    transition: transform .1s;
+}
+
+.b2:hover {
+    transform: scale(1.2);
+}
+
+.box3 {
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.b3 {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("food3.jpeg");
+    background-size: cover;
+    border-radius: 4%;
+    transition: transform .1s;
+}
+
+.b3:hover {
+    transform: scale(1.2);
+}
+
+.box4 {
+    margin-top: 20px;
+    height: 230px;
+    width: 150px;
+}
+
+.b4 {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("food4.jpeg");
+    background-size: cover;
+    border-radius: 4%;
+    transition: transform .1s;
+}
+
+.b4:hover {
+    transform: scale(1.2);
+}
+
+.box5 {
+    margin-top: 20px;
+    height: 230px;
+    width: 150px;
+}
+
+.b5 {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("place1.jpeg");
+    background-size: cover;
+    border-radius: 4%;
+    transition: transform .1s;
+}
+
+.b5:hover {
+    transform: scale(1.2);
+}
+
+.box6 {
+    margin-top: 20px;
+    height: 230px;
+    width: 150px;
+}
+
+.b6 {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("place2.jpeg");
+    background-size: cover;
+    border-radius: 4%;
+    transition: transform .1s;
+}
+
+.b6:hover {
+    transform: scale(1.2);
+}
+
+.box7 {
+    margin-top: 20px;
+    height: 230px;
+    width: 150px;
+}
+
+.b7 {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("place3.jpeg");
+    background-size: cover;
+    border-radius: 4%;
+    transition: transform .1s;
+}
+
+.b7:hover {
+    transform: scale(1.2);
+}
+
+.box8 {
+    margin-top: 20px;
+    height: 230px;
+    width: 150px;
+}
+
+.b8 {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("place4.avif");
+    background-size: cover;
+    border-radius: 4%;
+    transition: transform .1s;
+}
+
+.b8:hover {
+    transform: scale(1.2);
+}
+
+.box9 {
+    margin-top: 20px;
+    height: 230px;
+    width: 150px;
+}
+
+.b9 {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("fest1.avif");
+    background-size: cover;
+    border-radius: 4%;
+    transition: transform .1s;
+}
+
+.b9:hover {
+    transform: scale(1.2);
+}
+
+.box10 {
+    margin-top: 20px;
+    height: 230px;
+    width: 150px;
+}
+
+.b10 {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("fest2.jpeg");
+    background-size: cover;
+    border-radius: 4%;
+    transition: transform .1s;
+}
+
+.b10:hover {
+    transform: scale(1.2);
+}
+
+.box11 {
+    margin-top: 20px;
+    height: 230px;
+    width: 150px;
+}
+
+.b11 {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("fest3.jpeg");
+    background-size: cover;
+    border-radius: 4%;
+    transition: transform .1s;
+}
+
+.b11:hover {
+    transform: scale(1.2);
+}
+
+.box12 {
+    margin-top: 20px;
+    height: 230px;
+    width: 150px;
+}
+
+.b12 {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("fest4.webp");
+    background-size: cover;
+    border-radius: 4%;
+    transition: transform .1s;
+}
+
+.b12:hover {
+    transform: scale(1.2);
+}
+
+.head {
+    font-size: 110px;
+    font-weight: 900;
+    -webkit-text-stroke: 4px #000;
+    color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #D5AA72 0%,
+            #A66A2C 29%,
+            #4C2818 67%,
+            #131410 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+h2 {
+    background-color: #F2EAD3;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+
+}
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 60px;
+  }
+  .waviy span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    /* color: #fff; */
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+h3 {
+    font: family #674d02;
+    font-weight: lighter;
+
+}
+
+.info {
+    display: inline-block;
+    color: white;
+    height: 10px;
+}
+
+#contact {
+    color: lightblue;
+}
+
+a {
+    color: #3F2305;
+    text-decoration: none;
+}
+
+.grays {
+    margin: auto;
+    letter-spacing: 0.0015em;
+    font-size: 3em;
+}
+
+.about {
+    padding: 10px;
+}
+
+.cont {
+    font-size: 1.4em;
+}
+
+.recipe1 {
+    height: 510px;
+}
+
+#places2 {
+    border-color: #3F2305;
+    color: #3F2305;
+    border-radius: 100px;
+    border-width: 1px;
+    padding: 10px;
+}
+
+#places2:hover {
+    background-color: #F2EAD3;
+    color: #3F2305;
+}
+
+#food22 {
+    border-color: #3F2305;
+    color: #3F2305;
+    border-radius: 100px;
+    border-width: 1px;
+    padding: 10px;
+}
+
+#food22:hover {
+    background-color: #F2EAD3;
+    color: #3F2305;
+}
+
+#explo {
+    color: white;
+    background-color: #3F2305;
+    border-radius: 100px;
+    border-width: 1px;
+    padding: 10px;
+}
+
+#explo:hover {
+    background-color: #F2EAD3;
+    color: #3F2305;
+}
+
+#festies {
+    border-color: #3F2305;
+    color: #3F2305;
+    border-radius: 100px;
+    border-width: 1px;
+    padding: 10px;
+}
+
+#festies:hover {
+    background-color: #F2EAD3;
+    color: #3F2305;
+}
+
+#state {
+    border-color: #3F2305;
+    color: #3F2305;
+    border-radius: 100px;
+    border-width: 1px;
+    padding: 10px;
+}
+
+#state:hover {
+    background-color: #F2EAD3;
+    color: #3F2305;
+}
+
+#storey {
+    border-color: #3F2305;
+    color: #3F2305;
+    border-radius: 100px;
+    border-width: 1px;
+    padding: 10px;
+}
+
+#storey:hover {
+    /* background-color: #3F2305; */
+    background-color: #F2EAD3;
+    color: #3F2305;
+
+}
+
+#task {
+    color: white;
+    background-color: #3F2305;
+    border-radius: 100px;
+    border-width: 1px;
+    padding: 10px;
+}
+
+#task:hover {
+    background-color: #F2EAD3;
+    color: #3F2305;
+
+}
+
+#more {
+    color: white;
+    background-color: #3F2305;
+    border-radius: 100px;
+    border-width: 1px;
+    padding: 10px;
+}
+
+#more:hover {
+    background-color: #F2EAD3;
+    color: #3F2305;
+}
